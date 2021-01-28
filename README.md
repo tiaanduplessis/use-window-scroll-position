@@ -22,7 +22,7 @@
 import {useWindowScrollPosition} from 'use-window-scroll-position'
 
 const Nav = () => {
-    const position = useWindowScrollPosition()
+    const position = useWindowScrollPosition() // default config: { wait = 100, passive = true }
     console.log(position) // {x: ..., y: ...}
     return null
 }
