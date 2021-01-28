@@ -1,0 +1,30 @@
+{
+    "name": "use-window-scroll-position",
+    "description": "React hook to get current scroll position of the window",
+    "version": "1.0.0",
+    "author": "Tiaan du Plessis <tiaanduplessis@hotmail.com>",
+    "type": "module",
+    "main": "src/index.js",
+    "exports": "src/index.js",
+    "files": [
+        "index.js"
+    ],
+    "license": "mit",
+    "scripts": {
+        "lint": "standard --fix"
+    },
+    "peerDependencies": {
+        "react": "^16"
+    },
+    "devDependencies": {
+        "standard": "^16.0.3"
+    },
+    "standard": {
+        "env": {
+            "browser": true
+        }
+    },
+    "dependencies": {
+        "lodash.throttle": "^4.1.1"
+    }
+}
