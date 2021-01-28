@@ -6,6 +6,12 @@
     "type": "module",
     "main": "src/index.js",
     "exports": "src/index.js",
+    "keywords": [
+        "react",
+        "window",
+        "scroll",
+        "scroll-position"
+    ],
     "files": [
         "index.js"
     ],
